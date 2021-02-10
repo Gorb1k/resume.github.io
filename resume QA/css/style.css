@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7fa;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    background-color: #fff;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-photo {
+    width: 370px; 
+}
+
+.about-me-container {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.contacts-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+.contacts-title {
+    line-height: 24px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #646c77;
+    padding: 0px 0px 0px 50px;
+}
+.phone {
+    background: url("../img/smallPhone.png") 0 50% no-repeat;
+}
+.contacts-phone-letters {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.tech-skills-title {
+    line-height: 24px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.tech-skills-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+
+.tech-skills-list {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 10px;
+    color:#c8cbcf;
+}
+
+.tech-skills-list-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#ff6b08;
+    margin-left: 15px;
+}
+
+.soft-skills-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+
+.soft-skills-title {
+    line-height: 24px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.list-text {
+    color:#c5c8cc;
+}
+
+.soft-skills-list {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#ff6b08;
+    margin-left: 15px;
+}
+
+.current-frofession {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.my-name {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: 25px;
+}
+
+.short-description {
+    line-height: 24px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    margin-top: 25px;
+}
+
+.about-me-titles {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+    
+.projects-container {
+    margin-top: 65px;
+}
+
+.projects-list {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.projects-list-item {
+    color: #9b9b9b;
+}
+
+.work-experience {
+    width: 535px;
+    margin-top: 50px;
+}
+
+.company1-container, 
+.company2-container, 
+.company3-container {
+    margin-top: 20px;
+}
+
+.company-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+}
+
+.company-name {
+    color: #ff6b08;
+} 
+
+.working-time {
+    margin-top: 15px;
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+}
+
+.slash-color {
+    color: #000;
+}
+
+.work-experience-list {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.education-container {
+    margin-top: 50px;
+}
+
+.education-list {
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.university-name {
+    font-size: 16px;
+    color: #ff6b08;
+    margin-top: 20px;
+}
+
+.studying-time {
+    margin-top: 15px;
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+}
+
+.specialisation-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 0.42px;
+}
+
+.dots {
+    font-weight: 100;
+}
