@@ -5,6 +5,7 @@
 }
 
 body {
+    max-width: 1000px;
     background-color: #f5f7fa;
     padding-left: 20px;
     padding-right: 20px;
@@ -12,12 +13,11 @@ body {
     padding-bottom: 40px;
     font-family: 'Montserrat', sans-serif;
 }
-
 .wrapper {
     background-color: #fff;
     display: flex;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 900px;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -31,11 +31,13 @@ body {
 .my-photo {
     width: 300px; 
 }
-
+.aboutMe {
+    margin: 0px 50px 0px 0px;
+}
 .about-me-container {
     padding-left: 90px;
     padding-right: 90px;
-    padding-top: 110px;
+    padding-top: 40px;
     padding-bottom: 110px;
 }
 
@@ -129,17 +131,15 @@ body {
 
 .current-frofession {
     color: #000000;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 24px;
 }
 
 .my-name {
     color: #000000;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 55px;
-    margin-top: 25px;
 }
 
 .short-description {
@@ -147,7 +147,6 @@ body {
     color: #595959;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
     letter-spacing: 0.42px;
     margin-top: 25px;
 }
@@ -159,7 +158,7 @@ body {
 }
     
 .projects-container {
-    margin-top: 65px;
+    margin: 65px 30px 0px 0px;
 }
 
 .projects-list {
@@ -177,12 +176,13 @@ body {
 .work-experience {
     width: 535px;
     margin-top: 50px;
+    
 }
 
 .company1-container, 
 .company2-container, 
 .company3-container {
-    margin-top: 20px;
+    margin: 20px 30px 0px 0px;
 }
 
 .company-title {
