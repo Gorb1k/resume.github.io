@@ -40,6 +40,25 @@ body {
     padding-top: 40px;
     padding-bottom: 110px;
 }
+.current-profession {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+
+}
+
+.my-name {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
 
 .contacts-container {
     margin-left: 40px;
@@ -140,19 +159,6 @@ body {
     margin-left: 15px;
 }
 
-.current-frofession {
-    color: #000000;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-}
-
-.my-name {
-    color: #000000;
-    font-size: 40px;
-    font-weight: 700;
-}
-
 .short-description {
     line-height: 24px;
     color: #595959;
@@ -222,6 +228,14 @@ body {
 
 .work-experience-list {
     color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.summary {
+    color: #000000;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
