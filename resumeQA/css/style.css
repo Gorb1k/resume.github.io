@@ -27,9 +27,13 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
-.my-photo {
+.photo-wrap {
     width: 300px;
+}
+.my-photo {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 .aboutMe {
     margin: 0px 50px 0px 0px;
