@@ -2,23 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration:none;
 }
 
 body {
-    max-width: 1000px;
+    width: 620px;
+    height: 877px;
     background-color: #f5f7fa;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
     font-family: 'Montserrat', sans-serif;
 }
 .wrapper {
     background-color: #fff;
     display: flex;
     margin: 0 auto;
-    max-width: 900px;
-    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    /* max-width: 900px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15); */
 }
 
 .sidebar {
@@ -67,7 +65,7 @@ body {
 .contacts-container {
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .contacts-title {
@@ -75,7 +73,7 @@ body {
     font-size: 22px;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .contacts-link {
@@ -99,6 +97,14 @@ body {
     background: url("../img/linkedin.svg") 0 0/20px no-repeat;
     margin: 0px 0px 5px 0px;
 }
+.mini-icon_skype {
+    background: url("../img/icons8-skype.svg") 0 0/20px no-repeat;
+    margin: 0px 0px 5px 0px;
+}
+.mini-icon_telegram {
+    background: url("../img/icons8-telegram-app.svg") 0 0/20px no-repeat;
+    margin: 0px 0px 5px 0px;
+}
 .contacts-phone-letters {
     font-size: 14px;
     font-weight: 700;
@@ -112,13 +118,13 @@ body {
     font-size: 22px;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .tech-skills-container {
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 55px;
+    margin-top: 40px;
 }
 
 .tech-skills-list {
@@ -140,7 +146,7 @@ body {
 .soft-skills-container {
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 55px;
+    margin-top: 40px;
 }
 
 .soft-skills-title {
@@ -148,7 +154,7 @@ body {
     font-size: 22px;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .list-text {
@@ -280,7 +286,10 @@ body {
 .university-name {
     font-size: 16px;
     color: #ff6b08;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+.university-name-frst {
+margin: 20px 0px 0px 0px;
 }
 
 .studying-time {
