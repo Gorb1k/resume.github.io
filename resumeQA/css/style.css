@@ -12,10 +12,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .wrapper {
-    background-color: #fff;
+    background-color: #f5f7fa;
     display: flex;
-    margin: 0 auto;
-    /* max-width: 900px;
+    /* margin: 0 auto;
+    max-width: 900px;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15); */
 }
 
