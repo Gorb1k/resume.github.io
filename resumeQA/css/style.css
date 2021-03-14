@@ -26,12 +26,21 @@ body {
     padding-bottom: 40px;
 }
 .photo-wrap {
-    width: 300px;
+    width: 220px;
+    padding: 0px 0px 90% 0px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* border-radius: 5%; */
+    position: relative;
+
 }
 .my-photo {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .aboutMe {
     margin: 0px 50px 0px 0px;
