@@ -93,7 +93,10 @@ body {
     color:#c8cbcf;
     padding: 0px 0px 0px 30px;
 }
-
+.mini-icon_city {
+    background: url("../img/free-icon-house-black-silhouette-without-door-20176.svg") 0 0/20px no-repeat;
+    margin: 0px 0px 5px 0px;
+}
 .mini-icon_phone {
     background: url("../img/phone-receiver-silhouette.svg") 0 0/20px no-repeat;
     margin: 0px 0px 5px 0px;
